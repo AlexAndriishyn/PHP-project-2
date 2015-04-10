@@ -1,0 +1,225 @@
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize ================================================================================ */
+
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+	display: block;
+}
+
+a,
+a:active,
+a:visited {
+	outline: 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: #222;
+	text-shadow: 0px 3px 4px #555;
+}
+
+a:hover {
+	color: #f66;
+}
+
+small {
+	font-size: 80%;
+}	
+
+img {
+	border: 0;
+}
+
+/*!end of normalize.css v3.0.2 ============================================================================================================ */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font: 100% Helvetica, sans-serif;
+	overflow: hidden;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 595px;
+	width: 960px;
+	background-color: black;
+}
+
+/* navigation styles */
+.error a{
+	text-decoration: underline;
+}
+nav {
+	//background-color: #0769AD;
+	text-align: center;
+	background-image: url(../images/bg.png);
+	border-right: 5px solid #222;
+	margin: 0;
+	float: left;
+	height: 100%;
+	width: 155px;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+
+nav h3 {
+	font-weight: bold;
+	color: #222;
+	text-shadow: 0px 3px 4px #555;
+}
+
+img.logo {
+	display: block;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.deleteImage {
+	display: inline;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 20px;
+}
+
+li {
+	margin-top: 2px;
+	display: block;
+}
+
+/* Table styles */
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, tr {
+	text-align: center;
+	padding: 15px;
+}
+
+td {
+	padding : 2px;
+}
+
+table, th, td {
+	border: 2px solid #222;
+	border-collapse: collapse;
+}
+
+th {
+	color: #f66;
+}
+
+/* Form styles */
+legend {
+	font: bold 1.4em/1.3 Tahoma, Verdana, serif;
+}
+
+fieldset {
+	width: 450px;
+	background-color: transparent;
+	margin: auto;
+	margin-bottom: 1%;
+	text-align: left;
+	border: none;
+}
+
+.edit-page {
+	width: 600px;
+}
+
+div {
+	margin-bottom: 2%;
+}
+
+div:last-child {
+	margin-bottom: 0;
+}
+
+.row label {
+	display: inline-block;
+	width: 40%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.row textarea {
+	vertical-align: top;
+	resize: none;
+}
+
+.row input, .row textarea {
+	background-color: lightgray;
+}
+
+/* Main content styles */
+h1 {
+	color: #f66;
+}
+
+.main-container {
+	background-image: url(../images/bg.png);
+	text-align: center;
+	color: #222;
+	text-shadow: 0px 3px 4px #555;
+	font-weight: bold;
+	float: right;
+	width: 805px;
+	height: 595px;
+}
+
+.main-panel {
+	background-image: url(../images/bg.png);
+	height: 140px;
+	font-weight: bold;
+	color: #222;
+	text-shadow: 0px 3px 4px #555;
+	position: relative;
+	border-bottom: 5px solid #222;
+}
+
+.main-panel h1 {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%) 
+}
+
+.main-panel span {
+	margin: 0;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%) 
+}
+
+.main-panel a {
+	padding-right: 10px;
+}
